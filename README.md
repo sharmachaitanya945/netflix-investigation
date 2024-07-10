@@ -127,7 +127,7 @@ type params struct {
 
 // Usage example
 Input: {"role": "user", "content": "What's the weather like in Miami?"}
-Function Call: {"role": "assistant", "function": {"name": "get_weather", "arguments": '{"location": "Miami, FL"}'}}
+Function Call: {"role": "assistant", "function": {"name": "get_weather", "arguments": "{"location": "Miami, FL"}"}}
 ```
 
 ## Key Tips
